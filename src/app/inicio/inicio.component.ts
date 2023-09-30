@@ -30,5 +30,8 @@ export class InicioComponent implements OnInit {
   configuraciones(){
     this.router.navigate(['/configuraciones'])
   }
+  login(){
+    this.router.navigate(['/auth'])
+  }
 
 }

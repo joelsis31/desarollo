@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-configuraciones',
@@ -7,9 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConfiguracionesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
+
+  inicio(){
+    this.router.navigate(['/Inicio'])
+  }
+
+  conf_roles(){
+    this.router.navigate(['/conf-roles'])
+  }
+  
+  conf_states_ur(){
+    this.router.navigate(['/conf-states-ur'])
+  }
+
+  conf_state_vis(){
+    this.router.navigate(['/conf-states-vis'])
+  }
+
+
 
 }

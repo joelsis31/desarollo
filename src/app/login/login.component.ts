@@ -2,7 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { apiService } from './api.service';
-import { RESTORED_VIEW_CONTEXT_NAME } from '@angular/compiler/src/render3/view/util';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',

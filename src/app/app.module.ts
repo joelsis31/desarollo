@@ -14,6 +14,9 @@ import { ClientesComponent } from './clientes/clientes.component';
 import { SVisitasComponent } from './s-visitas/s-visitas.component';
 import { ReportesComponent } from './reportes/reportes.component';
 import { ConfiguracionesComponent } from './configuraciones/configuraciones.component';
+import { ConfRolesComponent } from './conf-roles/conf-roles.component';
+import { ConfStatesURComponent } from './conf-states-u-r/conf-states-u-r.component';
+import { ConfStatesVisComponent } from './conf-states-vis/conf-states-vis.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { ConfiguracionesComponent } from './configuraciones/configuraciones.comp
     ClientesComponent,
     SVisitasComponent,
     ReportesComponent,
-    ConfiguracionesComponent
+    ConfiguracionesComponent,
+    ConfRolesComponent,
+    ConfStatesURComponent,
+    ConfStatesVisComponent
   ],
   imports: [
     BrowserModule,
